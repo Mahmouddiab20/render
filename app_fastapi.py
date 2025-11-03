@@ -324,11 +324,14 @@ async def batch_lead_scoring(request: BatchLeadScoringRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 # تحميل النماذج عند بدء التطبيق
+# ملاحظة: في الخطة المجانية، قد يستغرق التحميل 10-15 ثانية عند Spin-up
 @app.on_event("startup")
 async def startup_event():
     print("🚀 جارٍ تحميل النماذج...")
+    print("⏱️  هذا قد يستغرق 10-15 ثانية في الخطة المجانية (Spin-up)")
     load_models()
-    print("✅ API جاهز!")
+    print("✅ API جاهز! جميع النماذج محملة في الذاكرة.")
+    print(f"💾 حجم النماذج: ~350 KB - مناسب تماماً للخطة المجانية (512MB RAM)")
 
 if __name__ == "__main__":
     import uvicorn
