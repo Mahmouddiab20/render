@@ -1,0 +1,45 @@
+📦 محتويات مجلد render-ready - جاهز للرفع على Render
+=======================================================
+
+✅ المجلد يحتوي على 19 ملف/مجلد
+
+📁 الملفات الرئيسية:
+--------------------
+✅ app.py                    (Flask - 11 KB)
+✅ app_fastapi.py           (FastAPI - 12 KB) ⭐ موصى به
+✅ Procfile                 (للـ Flask)
+✅ Procfile_fastapi         (للـ FastAPI)
+✅ requirements.txt         (مكتبات Flask)
+✅ requirements_fastapi.txt (مكتبات FastAPI)
+✅ .gitignore              (تجاهل الملفات غير المطلوبة)
+
+📁 ملفات النماذج (Models):
+---------------------------
+✅ Lead_scoring/
+   - lead_scoring_model.pkl (104 KB)
+   - le_source.pkl (536 bytes)
+   - le_agent.pkl (539 bytes)
+
+✅ Sales_forecasting/
+   - sales_forecasting_model.pkl (211 KB)
+
+✅ Customer_segmentation/
+   - customer_segmentation_model.pkl (35 KB)
+   - customer_segmentation_scaler.pkl (1 KB)
+
+📄 ملفات التوثيق:
+------------------
+✅ README.md
+✅ README_RENDER.md (دليل النشر)
+✅ QUICK_START.md
+
+📊 إجمالي الحجم: ~360 KB
+
+🚀 الخطوة التالية:
+-------------------
+1. ارفع محتويات هذا المجلد على GitHub
+2. اربط Render بـ GitHub repository
+3. انشر!
+
+راجع README_RENDER.md للتعليمات التفصيلية.
+

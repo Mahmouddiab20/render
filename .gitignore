@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Models - يجب رفع ملفات .pkl (لا تضع علامة #)
+# إذا كانت الملفات كبيرة جداً (>100MB)، استخدم Git LFS
+# *.pkl
+
